@@ -1,0 +1,411 @@
+'comp: animations':
+  - packages/animations/**
+  - packages/platform-browser/animations/**
+  - aio/content/guide/animations.md
+  - aio/content/examples/animations/**
+  - aio/content/images/guide/animations/**
+  - aio/content/guide/complex-animation-sequences.md
+  - aio/content/guide/reusable-animations.md
+  - aio/content/guide/route-animations.md
+  - aio/content/guide/transition-and-triggers.md
+
+'comp: bazel':
+  - packages/bazel/**
+
+'comp: benchpress':
+  - packages/benchpress/**
+
+'comp: build & ci':
+  - goldens/size-tracking/**
+  - goldens/circular-deps/packages.json
+  - .pullapprove.yml
+
+'comp: common':
+  - !packages/core/schematics/**
+  - packages/common/**
+  - packages/examples/common/**
+
+'comp: common/http':
+  - packages/common/http/**
+  - packages/examples/http/**
+  - aio/content/guide/http.md
+  - aio/content/examples/http/**
+  - aio/content/images/guide/http/**
+
+'comp: compiler':
+  - !packages/compiler-cli/ngcc/**
+  - packages/compiler-cli/src/tooling.ts
+  - packages/compiler/**
+  - packages/examples/compiler/**
+  - packages/compiler-cli/**
+  - aio/content/guide/angular-compiler-options.md
+  - aio/content/guide/aot-compiler.md
+  - aio/content/guide/aot-metadata-errors.md
+  - aio/content/guide/template-typecheck.md
+
+'comp: core':
+  - !packages/core/schematics/**
+  - packages/core/**
+  - packages/examples/core/**
+  - packages/platform-browser/**
+  - packages/examples/platform-browser/**
+  - packages/platform-browser-dynamic/**
+  - packages/docs/**
+  - aio/content/guide/accessibility.md
+  - aio/content/examples/accessibility/**
+  - aio/content/guide/architecture-components.md
+  - aio/content/guide/architecture-modules.md
+  - aio/content/guide/architecture-next-steps.md
+  - aio/content/guide/architecture-services.md
+  - aio/content/guide/architecture.md
+  - aio/content/examples/architecture/**
+  - aio/content/images/guide/architecture/**
+  - aio/content/guide/attribute-directives.md
+  - aio/content/examples/attribute-directives/**
+  - aio/content/images/guide/attribute-directives/**
+  - aio/content/guide/bootstrapping.md
+  - aio/content/examples/bootstrapping/**
+  - aio/content/guide/cheatsheet.md
+  - aio/content/guide/component-interaction.md
+  - aio/content/examples/component-interaction/**
+  - aio/content/images/guide/component-interaction/**
+  - aio/content/guide/component-overview.md
+  - aio/content/examples/component-overview/**
+  - aio/content/guide/component-styles.md
+  - aio/content/guide/view-encapsulation.md
+  - aio/content/examples/component-styles/**
+  - aio/content/guide/dependency-injection.md
+  - aio/content/examples/dependency-injection/**
+  - aio/content/images/guide/dependency-injection/**
+  - aio/content/guide/dependency-injection-in-action.md
+  - aio/content/examples/dependency-injection-in-action/**
+  - aio/content/images/guide/dependency-injection-in-action/**
+  - aio/content/guide/dependency-injection-navtree.md
+  - aio/content/guide/dependency-injection-providers.md
+  - aio/content/guide/lightweight-injection-tokens.md
+  - aio/content/guide/displaying-data.md
+  - aio/content/examples/displaying-data/**
+  - aio/content/images/guide/displaying-data/**
+  - aio/content/guide/dynamic-component-loader.md
+  - aio/content/examples/dynamic-component-loader/**
+  - aio/content/images/guide/dynamic-component-loader/**
+  - aio/content/guide/example-apps-list.md
+  - aio/content/guide/entry-components.md
+  - aio/content/guide/feature-modules.md
+  - aio/content/examples/feature-modules/**
+  - aio/content/images/guide/feature-modules/**
+  - aio/content/guide/frequent-ngmodules.md
+  - aio/content/images/guide/frequent-ngmodules/**
+  - aio/content/guide/hierarchical-dependency-injection.md
+  - aio/content/examples/hierarchical-dependency-injection/**
+  - aio/content/examples/providers-viewproviders/**
+  - aio/content/examples/resolution-modifiers/**
+  - aio/content/guide/lazy-loading-ngmodules.md
+  - aio/content/examples/lazy-loading-ngmodules/**
+  - aio/content/images/guide/lazy-loading-ngmodules/**
+  - aio/content/guide/lifecycle-hooks.md
+  - aio/content/examples/lifecycle-hooks/**
+  - aio/content/images/guide/lifecycle-hooks/**
+  - aio/content/examples/ngcontainer/**
+  - aio/content/guide/ngmodules.md
+  - aio/content/examples/ngmodules/**
+  - aio/content/guide/ngmodule-api.md
+  - aio/content/guide/ngmodule-faq.md
+  - aio/content/guide/ngmodule-vs-jsmodule.md
+  - aio/content/guide/module-types.md
+  - aio/content/guide/template-syntax.md
+  - aio/content/guide/built-in-template-functions.md
+  - aio/content/examples/built-in-template-functions/**
+  - aio/content/guide/event-binding.md
+  - aio/content/guide/event-binding-concepts.md
+  - aio/content/examples/event-binding/**
+  - aio/content/guide/interpolation.md
+  - aio/content/examples/interpolation/**
+  - aio/content/examples/template-syntax/**
+  - aio/content/images/guide/template-syntax/**
+  - aio/content/guide/binding-syntax.md
+  - aio/content/examples/binding-syntax/**
+  - aio/content/guide/property-binding.md
+  - aio/content/examples/property-binding/**
+  - aio/content/guide/property-binding-best-practices.md
+  - aio/content/guide/attribute-binding.md
+  - aio/content/examples/attribute-binding/**
+  - aio/content/guide/two-way-binding.md
+  - aio/content/examples/two-way-binding/**
+  - aio/content/guide/built-in-directives.md
+  - aio/content/examples/built-in-directives/**
+  - aio/content/images/guide/built-in-directives/**
+  - aio/content/guide/template-reference-variables.md
+  - aio/content/examples/template-reference-variables/**
+  - aio/content/guide/inputs-outputs.md
+  - aio/content/examples/inputs-outputs/**
+  - aio/content/images/guide/inputs-outputs/**
+  - aio/content/guide/template-expression-operators.md
+  - aio/content/examples/template-expression-operators/**
+  - aio/content/guide/pipes.md
+  - aio/content/examples/pipes/**
+  - aio/content/images/guide/pipes/**
+  - aio/content/guide/providers.md
+  - aio/content/examples/providers/**
+  - aio/content/images/guide/providers/**
+  - aio/content/guide/singleton-services.md
+  - aio/content/guide/set-document-title.md
+  - aio/content/examples/set-document-title/**
+  - aio/content/images/guide/set-document-title/**
+  - aio/content/guide/sharing-ngmodules.md
+  - aio/content/guide/structural-directives.md
+  - aio/content/examples/structural-directives/**
+  - aio/content/guide/svg-in-templates.md
+  - aio/content/guide/style-precedence.md
+  - aio/content/images/guide/structural-directives/**
+  - aio/content/guide/template-statements.md
+  - aio/content/guide/user-input.md
+  - aio/content/examples/user-input/**
+  - aio/content/images/guide/user-input/**
+
+'comp: dev-infra':
+  - !CHANGELOG.md
+  - !packages/compiler-cli/**/BUILD.bazel
+  - *
+  - .circleci/**
+  - .devcontainer/**
+  - .github/**
+  - .husky/**
+  - .ng-dev/**
+  - .vscode/**
+  - .yarn/**
+  - dev-infra/**
+  - docs/BAZEL.md
+  - docs/CARETAKER.md
+  - docs/CODING_STANDARDS.md
+  - docs/COMMITTER.md
+  - docs/DEBUG.md
+  - docs/DEBUG_COMPONENTS_REPO_IVY.md
+  - docs/DEVELOPER.md
+  - docs/FIXUP_COMMITS.md
+  - docs/GITHUB_PROCESS.md
+  - docs/PR_REVIEW.md
+  - docs/SAVED_REPLIES.md
+  - docs/TOOLS.md
+  - docs/TRIAGE_AND_LABELS.md
+  - docs/images/**
+  - goldens/*
+  - modules/*
+  - packages/*
+  - packages/examples/test-utils/**
+  - packages/private/**
+  - packages/examples/*
+  - scripts/**
+  - third_party/**
+  - tools/build/**
+  - tools/circular_dependency_test/**
+  - tools/contributing-stats/**
+  - tools/gulp-tasks/**
+  - tools/npm/**
+  - tools/npm_integration_test/**
+  - tools/rxjs/**
+  - tools/saucelabs/**
+  - tools/size-tracking/**
+  - tools/source-map-test/**
+  - tools/symbol-extractor/**
+  - tools/testing/**
+  - tools/ts-api-guardian/**
+  - tools/tslint/**
+  - tools/utils/**
+  - tools/yarn/**
+  - tools/*
+  - **/*.bzl
+  - **/*.bazel
+
+'comp: docs':
+  - aio/content/cli/*
+  - aio/content/examples/**
+  - aio/content/*
+  - aio/content/guide/*
+  - aio/content/images/**
+  - aio/content/marketing/*
+  - docs/PUBLIC_API.md
+  - docs/RELEASE_SCHEDULE.md
+  - packages/docs/**
+  - packages/examples/compiler/**
+  - packages/examples/core/**
+  - packages/examples/forms/**
+  - packages/examples/http/**
+  - packages/examples/platform-browser/**
+  - packages/examples/router/**
+  - packages/examples/service-worker/**
+  - packages/examples/upgrade/**
+
+'comp: docs/api':
+  - goldens/public-api/**
+  - CHANGELOG.md
+  - docs/NAMING.md
+  - aio/content/guide/glossary.md
+  - aio/content/guide/styleguide.md
+  - aio/content/examples/styleguide/**
+  - aio/content/images/guide/styleguide/
+
+'comp: docs-infra':
+  - aio/*
+  - aio/aio-builds-setup/**
+  - aio/content/cli-src/**
+  - aio/content/examples/*
+  - aio/scripts/**
+  - aio/src/**
+  - aio/tests/**
+  - aio/tools/**
+  - aio/content/guide/docs-style-guide.md
+  - aio/content/examples/docs-style-guide/**
+  - aio/content/images/guide/docs-style-guide/**
+  - aio/content/guide/visual-studio-2015.md
+
+'comp: elements':
+  - packages/elements/**
+  - aio/content/examples/elements/**
+  - aio/content/images/guide/elements/**
+  - aio/content/guide/elements.md
+
+'comp: examples':
+  - aio/content/guide/setup-local.md
+  - aio/content/images/guide/setup-local/**
+  - aio/content/tutorial/**
+  - aio/content/images/guide/toh/**
+  - aio/content/examples/toh-pt0/**
+  - aio/content/examples/toh-pt1/**
+  - aio/content/examples/toh-pt2/**
+  - aio/content/examples/toh-pt3/**
+  - aio/content/examples/toh-pt4/**
+  - aio/content/examples/toh-pt5/**
+  - aio/content/examples/toh-pt6/**
+  - aio/content/examples/getting-started-v0/**
+  - aio/content/examples/getting-started/**
+  - aio/content/start/**
+  - aio/content/images/guide/start/**
+
+'comp: forms':
+  - packages/forms/**
+  - packages/examples/forms/**
+  - aio/content/guide/forms.md
+  - aio/content/examples/forms/**
+  - aio/content/images/guide/forms/**
+  - aio/content/guide/forms-overview.md
+  - aio/content/examples/forms-overview/**
+  - aio/content/images/guide/forms-overview/**
+  - aio/content/guide/form-validation.md
+  - aio/content/examples/form-validation/**
+  - aio/content/images/guide/form-validation/**
+  - aio/content/guide/dynamic-form.md
+  - aio/content/examples/dynamic-form/**
+  - aio/content/images/guide/dynamic-form/**
+  - aio/content/guide/reactive-forms.md
+  - aio/content/examples/reactive-forms/**
+  - aio/content/images/guide/reactive-forms/**
+
+'comp: i18n':
+  - packages/core/src/i18n/**
+  - packages/core/src/render3/i18n/**
+  - packages/core/src/render3/instructions/i18n.ts
+  - packages/core/src/render3/interfaces/i18n.ts
+  - packages/common/locales/**
+  - packages/common/src/i18n/**
+  - packages/common/src/pipes/date_pipe.ts
+  - packages/common/src/pipes/i18n_plural_pipe.ts
+  - packages/common/src/pipes/i18n_select_pipe.ts
+  - packages/common/src/pipes/number_pipe.ts
+  - packages/compiler/src/i18n/**
+  - packages/compiler/src/render3/view/i18n/**
+  - packages/compiler-cli/src/extract_i18n.ts
+  - packages/localize/**
+  - aio/content/guide/i18n.md
+  - aio/content/examples/i18n/**
+
+'comp: in-memory-web-api':
+  - packages/misc/angular-in-memory-web-api/**
+
+'comp: language-service':
+  - packages/language-service/**
+  - aio/content/guide/language-service.md
+  - aio/content/images/guide/language-service/**
+
+'comp: migrations':
+  - packages/core/schematics/**
+
+'comp: ngcc':
+  - packages/compiler-cli/ngcc/**
+
+'comp: packaging':
+
+'comp: performance':
+  - modules/benchmarks/**
+
+'comp: router':
+  - packages/router/**
+  - packages/examples/router/**
+  - aio/content/guide/router.md
+  - aio/content/guide/router-tutorial.md
+  - aio/content/guide/router-tutorial-toh.md
+  - aio/content/examples/router-tutorial/**
+  - aio/content/examples/router/**
+  - aio/content/images/guide/router/**
+
+'comp: security':
+  - packages/core/src/sanitization/**
+  - packages/core/test/linker/security_integration_spec.ts
+  - packages/compiler/src/schema/**
+  - packages/platform-browser/src/security/**
+  - aio/content/guide/security.md
+  - aio/content/examples/security/**
+  - aio/content/images/guide/security/**
+
+'comp: server':
+  - packages/platform-server/**
+  - aio/content/guide/universal.md
+  - aio/content/examples/universal/**
+
+'comp: service-worker':
+  - packages/service-worker/**
+  - packages/examples/service-worker/**
+  - aio/content/guide/service-worker-getting-started.md
+  - aio/content/examples/service-worker-getting-started/**
+  - aio/content/guide/app-shell.md
+  - aio/content/guide/service-worker-communications.md
+  - aio/content/guide/service-worker-config.md
+  - aio/content/guide/service-worker-devops.md
+  - aio/content/guide/service-worker-intro.md
+  - aio/content/images/guide/service-worker/**
+
+'comp: testing':
+  - !packages/compiler-cli/**
+  - integration/**
+  - packages/**/testing/**
+  - aio/content/guide/testing.md
+  - aio/content/guide/test-debugging.md
+  - aio/content/guide/testing-attribute-directives.md
+  - aio/content/guide/testing-code-coverage.md
+  - aio/content/guide/testing-components-basics.md
+  - aio/content/guide/testing-components-scenarios.md
+  - aio/content/guide/testing-pipes.md
+  - aio/content/guide/testing-services.md
+  - aio/content/guide/testing-utility-apis.md
+  - aio/content/examples/testing/**
+  - aio/content/images/guide/testing/**
+
+'comp: upgrade':
+  - packages/upgrade/**
+  - packages/common/upgrade/**
+  - packages/examples/upgrade/**
+  - aio/content/guide/upgrade.md
+  - aio/content/examples/upgrade-lazy-load-ajs/**
+  - aio/content/examples/upgrade-module/**
+  - aio/content/images/guide/upgrade/**
+  - aio/content/examples/upgrade-phonecat-1-typescript/**
+  - aio/content/examples/upgrade-phonecat-2-hybrid/**
+  - aio/content/examples/upgrade-phonecat-3-final/**
+  - aio/content/guide/upgrade-performance.md
+  - aio/content/guide/upgrade-setup.md
+  - aio/content/guide/ajs-quick-reference.md
+  - aio/content/examples/ajs-quick-reference/**
+
+'comp: zones':
+  - packages/zone.js/**
+  - aio/content/guide/zone.md
